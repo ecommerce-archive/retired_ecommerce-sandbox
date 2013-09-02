@@ -1,3 +1,12 @@
+sandbox_main:
+    resource: "@SandboxMainBundle/Resources/config/routing.xml"
+    prefix:   /
+
+ecommerce_core:
+    resource: "@EcommerceCoreBundle/Resources/config/routing.xml"
+    prefix:   /
+
+
 login_check:
     pattern:   /login_check
     options: { i18n: false }
@@ -5,8 +14,3 @@ login_check:
 logout:
     pattern:   /logout
     options: { i18n: false }
-
-sandbox_main:
-    resource: "@SandboxMainBundle/Resources/config/routing.xml"
-    prefix:   /
-
