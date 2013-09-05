@@ -17,6 +17,8 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Doctrine\Bundle\PHPCRBundle\DoctrinePHPCRBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle(),
+            new FOS\RestBundle\FOSRestBundle(),
             new Liip\DoctrineCacheBundle\LiipDoctrineCacheBundle(),
             new Sandbox\MainBundle\SandboxMainBundle(),
             new Ecommerce\Bundle\CoreBundle\EcommerceCoreBundle(),

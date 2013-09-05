@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serializer>
+    <class name="Jackalope\Node" exclusion-policy="ALL" xml-root-name="node">
+        <property name="properties"
+            expose="true"
+            type="array"
+            serialized-name="properties"
+            access-type="public_method"
+            accessor-getter="getPropertiesValues"
+            inline="true"
+            read-only="true"
+            groups="all"
+            xml-attribute-map="true"
+            >
+            <!--
+            max-depth="1"
+            <xml-map inline="true" key-attribute-name="foo" entry-name="bar" />-->
+        </property>
+    </class>
+</serializer>

@@ -18,7 +18,8 @@ framework:
         #assets_version: SomeVersionScheme
     default_locale:  "%locale%"
     trusted_proxies: ~
-    session:         ~
+    session:
+        name: 'ecommerce'
     fragments:       ~
     http_method_override: true
 
@@ -79,6 +80,35 @@ doctrine_phpcr:
 #            type: file_system
 #        nodes:
 #            type: file_system
+
+fos_rest:
+    view:
+        view_response_listener: force
+        formats:
+            json: true
+            xml: false
+        templating_formats:
+            html: true
+        force_redirects:
+            html: true
+        failed_validation: HTTP_BAD_REQUEST
+        default_engine: twig
+    format_listener:
+        default_priorities:
+            - html
+            - json
+            - "*/*"
+
+jms_serializer:
+    metadata:
+        directories:
+            Jackalope:
+                namespace_prefix: "Jackalope"
+                path: "%kernel.root_dir%/Resources/serializer/Jackalope"
+
+sensio_framework_extra:
+    view:    { annotations: false }
+    router:  { annotations: true }
 
 swiftmailer:
     transport: %mailer_transport%
