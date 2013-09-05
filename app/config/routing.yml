@@ -4,7 +4,7 @@ sandbox_main:
 
 ecommerce_core:
     resource: "@EcommerceCoreBundle/Resources/config/routing.xml"
-    prefix:   /
+    prefix:   /core
 
 
 login_check:

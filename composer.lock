@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e4a65f804de5036e13c48811cf3b88f0",
+    "hash": "aefa12364e0de327e6ae8d2fc653924e",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -756,12 +756,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ecommerce/EcommerceCoreBundle.git",
-                "reference": "87c1fe67d83c446443ea44507b7e3910b08cbe4b"
+                "reference": "4194dbf5b33828823446b1eba4cd31900813fa6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ecommerce/EcommerceCoreBundle/zipball/87c1fe67d83c446443ea44507b7e3910b08cbe4b",
-                "reference": "87c1fe67d83c446443ea44507b7e3910b08cbe4b",
+                "url": "https://api.github.com/repos/ecommerce/EcommerceCoreBundle/zipball/4194dbf5b33828823446b1eba4cd31900813fa6d",
+                "reference": "4194dbf5b33828823446b1eba4cd31900813fa6d",
                 "shasum": ""
             },
             "require": {
@@ -791,7 +791,7 @@
             "keywords": [
                 "ecommerce"
             ],
-            "time": "2013-09-02 12:16:17"
+            "time": "2013-09-04 09:33:37"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -800,12 +800,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "548ea586258845b68e8142b0e3f0a7dbac2e6f49"
+                "reference": "bc06242a63298affc72d2089f93d8986a6217c4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/548ea586258845b68e8142b0e3f0a7dbac2e6f49",
-                "reference": "548ea586258845b68e8142b0e3f0a7dbac2e6f49",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/bc06242a63298affc72d2089f93d8986a6217c4c",
+                "reference": "bc06242a63298affc72d2089f93d8986a6217c4c",
                 "shasum": ""
             },
             "require": {
@@ -843,7 +843,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2013-08-27 09:48:45"
+            "time": "2013-09-03 08:29:03"
         },
         {
             "name": "jackalope/jackalope",
@@ -961,12 +961,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jdorn/sql-formatter.git",
-                "reference": "bccca26bfe75b30aba71c2f734e9f9dd854a85f6"
+                "reference": "7045fde3163d5a4ea6ec32e409a7dcf00779e204"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/bccca26bfe75b30aba71c2f734e9f9dd854a85f6",
-                "reference": "bccca26bfe75b30aba71c2f734e9f9dd854a85f6",
+                "url": "https://api.github.com/repos/jdorn/sql-formatter/zipball/7045fde3163d5a4ea6ec32e409a7dcf00779e204",
+                "reference": "7045fde3163d5a4ea6ec32e409a7dcf00779e204",
                 "shasum": ""
             },
             "require": {
@@ -1003,7 +1003,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2013-07-11 13:51:14"
+            "time": "2013-09-02 17:19:28"
         },
         {
             "name": "kriswallsmith/assetic",
@@ -1011,12 +1011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "735cffd3982c6e8cdebe292d5db39d077f65890f"
+                "reference": "1d671c54f147ece319642132330927672b6190a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/735cffd3982c6e8cdebe292d5db39d077f65890f",
-                "reference": "735cffd3982c6e8cdebe292d5db39d077f65890f",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/1d671c54f147ece319642132330927672b6190a7",
+                "reference": "1d671c54f147ece319642132330927672b6190a7",
                 "shasum": ""
             },
             "require": {
@@ -1074,7 +1074,55 @@
                 "compression",
                 "minification"
             ],
-            "time": "2013-07-19 00:03:27"
+            "time": "2013-09-03 12:44:05"
+        },
+        {
+            "name": "liip/doctrine-cache-bundle",
+            "version": "dev-master",
+            "target-dir": "Liip/DoctrineCacheBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liip/LiipDoctrineCacheBundle.git",
+                "reference": "f5186048befb8d87c6633edf8cd0df94e573d79c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liip/LiipDoctrineCacheBundle/zipball/f5186048befb8d87c6633edf8cd0df94e573d79c",
+                "reference": "f5186048befb8d87c6633edf8cd0df94e573d79c",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": ">=2.2",
+                "php": ">=5.3.0",
+                "symfony/symfony": ">=2.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Liip\\DoctrineCacheBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liip AG",
+                    "homepage": "http://www.liip.ch/"
+                }
+            ],
+            "description": "This Bundle provides integration into Symfony2 with the Doctrine Common Cache layer.",
+            "keywords": [
+                "Symfony2",
+                "cache"
+            ],
+            "time": "2013-08-27 08:04:50"
         },
         {
             "name": "monolog/monolog",
@@ -1713,12 +1761,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "47b32437e15852157bbc979a2780d89962b6290a"
+                "reference": "eb9571e2b082c042cc0b7e46b001cf1d84b8b73a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/47b32437e15852157bbc979a2780d89962b6290a",
-                "reference": "47b32437e15852157bbc979a2780d89962b6290a",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/eb9571e2b082c042cc0b7e46b001cf1d84b8b73a",
+                "reference": "eb9571e2b082c042cc0b7e46b001cf1d84b8b73a",
                 "shasum": ""
             },
             "require": {
@@ -1813,7 +1861,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-08-31 06:12:22"
+            "time": "2013-09-04 06:17:01"
         },
         {
             "name": "twig/extensions",
@@ -1868,12 +1916,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "3db6b6aeb9442abf85d2a9f6d5c3ae3e07398597"
+                "reference": "c0731335a12c58e2a84cde6cf133c586be639491"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/3db6b6aeb9442abf85d2a9f6d5c3ae3e07398597",
-                "reference": "3db6b6aeb9442abf85d2a9f6d5c3ae3e07398597",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/c0731335a12c58e2a84cde6cf133c586be639491",
+                "reference": "c0731335a12c58e2a84cde6cf133c586be639491",
                 "shasum": ""
             },
             "require": {
@@ -1909,7 +1957,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-08-28 06:01:53"
+            "time": "2013-09-04 15:00:30"
         }
     ],
     "packages-dev": [
@@ -1920,7 +1968,8 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "ecommerce/core-bundle": 20
+        "ecommerce/core-bundle": 20,
+        "liip/doctrine-cache-bundle": 20
     },
     "platform": {
         "php": ">=5.3.3"

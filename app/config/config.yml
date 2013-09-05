@@ -51,14 +51,7 @@ doctrine:
 
     orm:
         auto_generate_proxy_classes: %kernel.debug%
-        entity_managers:
-            default:
-                auto_mapping: true
-                mappings:
-                    EcommerceCoreBundle:
-                        type: xml
-                        dir: Resources/config/doctrine-orm
-                        prefix: Ecommerce\Bundle\CoreBundle\Doctrine\Orm
+        auto_mapping: true
 
 doctrine_phpcr:
     session:
@@ -68,14 +61,7 @@ doctrine_phpcr:
         password: %phpcr_pass%
     odm:
         auto_generate_proxy_classes: %kernel.debug%
-        document_managers:
-            default:
-                auto_mapping: true
-                mappings:
-                    EcommerceCoreBundle:
-                        type: xml
-                        dir: Resources/config/doctrine-phpcr
-                        prefix: Ecommerce\Bundle\CoreBundle\Doctrine\Phpcr
+        auto_mapping: true
         locales:
             en:
                 - de

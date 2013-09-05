@@ -4,7 +4,27 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
 
-    <route id="sandbox_main_homepage" pattern="/">
+    <route id="sandbox_main_homepage" path="/">
         <default key="_controller">SandboxMainBundle:Default:index</default>
+    </route>
+
+    <route id="sandbox_main_productsandbox" path="/products/" methods="GET">
+        <default key="_controller">SandboxMainBundle:ProductSandbox:index</default>
+    </route>
+
+    <route id="sandbox_main_productsandbox_create" path="/products/" methods="POST">
+        <default key="_controller">SandboxMainBundle:ProductSandbox:create</default>
+    </route>
+
+    <route id="sandbox_main_productsandbox_view" path="/products/{id}" methods="GET">
+        <default key="_controller">SandboxMainBundle:ProductSandbox:view</default>
+    </route>
+
+    <route id="sandbox_main_productsandbox_update" path="/products/{id}" methods="PUT">
+        <default key="_controller">SandboxMainBundle:ProductSandbox:update</default>
+    </route>
+
+    <route id="sandbox_main_productsandbox_delete" path="/products/{id}" methods="DELETE">
+        <default key="_controller">SandboxMainBundle:ProductSandbox:delete</default>
     </route>
 </routes>

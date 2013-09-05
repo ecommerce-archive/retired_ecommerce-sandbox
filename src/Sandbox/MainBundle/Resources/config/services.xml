@@ -4,17 +4,16 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
-    <!--
     <parameters>
-        <parameter key="sandbox_main.example.class">Sandbox\MainBundle\Example</parameter>
+        <parameter key="sandbox_main.product_handler.options.class">Sandbox\MainBundle\Product\Handler\ProductWithOptionsHandler</parameter>
     </parameters>
 
     <services>
-        <service id="sandbox_main.example" class="%sandbox_main.example.class%">
-            <argument type="service" id="service_id" />
-            <argument>plain_value</argument>
-            <argument>%parameter_name%</argument>
+
+        <service id="sandbox_main.product_handler.options" class="%sandbox_main.product_handler.options.class%">
+            <!--<argument type="service" id="sandbox_main.product_handler.options.cart_item_validator" />-->
+            <tag name="ecommmerce.product_handler" />
         </service>
+
     </services>
-    -->
 </container>
