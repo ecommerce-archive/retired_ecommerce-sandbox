@@ -88,7 +88,7 @@ fos_rest:
         view_response_listener: force
         formats:
             json: true
-            xml: false
+            xml: true
         templating_formats:
             html: true
         force_redirects:
@@ -99,7 +99,9 @@ fos_rest:
         default_priorities:
             - html
             - json
+            - xml
             - "*/*"
+#    allowed_methods_listener: true
     serializer:
         serialize_null: true
 
