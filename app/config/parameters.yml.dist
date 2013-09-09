@@ -12,5 +12,20 @@ parameters:
     mailer_user:       ~
     mailer_password:   ~
 
-    locale:            en
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    locale:            en
+    locales:
+        - en
+        - de
+        - fr
+    locale_fallbacks:
+            de:
+                - en
+                - fr
+            en:
+                - de
+                - fr
+            fr:
+                - en
+                - de
